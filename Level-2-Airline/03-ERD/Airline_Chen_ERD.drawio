@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-09-14T00:00:00.000Z" agent="OpenAI Codex" version="24.7.17" compressed="false" pages="1">
+  <diagram id="airline_erd_74" name="Airline ERD">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="3600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="diagram_title" value="Level 2 — Airline Information System (Chen ERD)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1;fontColor=#17365D;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="4400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_subtitle" value="Weak entities, identifying relationships, and the required ternary reservation are shown explicitly" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#526777;" vertex="1" parent="1">
+          <mxGeometry x="300" y="72" width="4400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_flight_flight_no_1_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="flight" target="flight_flight_no_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_flight_airline_3_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="flight" target="flight_airline_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_flight_weekdays_5_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="flight" target="flight_weekdays_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_flight_leg_leg_no_7_8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="flight_leg" target="flight_leg_leg_no_7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_flight_leg_scheduled_departure_time_9_10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="flight_leg" target="flight_leg_scheduled_departure_time_9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_flight_leg_scheduled_arrival_time_11_12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="flight_leg" target="flight_leg_scheduled_arrival_time_11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_leg_instance_flight_date_13_14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="leg_instance" target="leg_instance_flight_date_13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_leg_instance_actual_departure_time_15_16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="leg_instance" target="leg_instance_actual_departure_time_15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_leg_instance_actual_arrival_time_17_18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="leg_instance" target="leg_instance_actual_arrival_time_17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_leg_instance_available_seats_19_20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="leg_instance" target="leg_instance_available_seats_19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_airplane_airplane_id_21_22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airplane" target="airplane_airplane_id_21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_airplane_total_seats_23_24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airplane" target="airplane_total_seats_23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fare_fare_fare_code_25_26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="fare" target="fare_fare_code_25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fare_fare_amount_27_28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="fare" target="fare_amount_27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fare_fare_restrictions_29_30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="fare" target="fare_restrictions_29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_airport_airport_code_31_32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airport" target="airport_airport_code_31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_airport_name_33_34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airport" target="airport_name_33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_airport_city_35_36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airport" target="airport_city_35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_airport_state_37_38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airport" target="airport_state_37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type_airplane_type_type_name_39_40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airplane_type" target="airplane_type_type_name_39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type_airplane_type_company_41_42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airplane_type" target="airplane_type_company_41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type_airplane_type_max_seats_43_44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="airplane_type" target="airplane_type_max_seats_43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_customer_customer_id_45_46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="customer" target="customer_customer_id_45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_customer_name_47_48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="customer" target="customer_name_47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_customer_phone_49_50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="customer" target="customer_phone_49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seat_seat_seat_no_51_52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#90A4B8;strokeWidth=1.5;" edge="1" parent="1" source="seat" target="seat_seat_no_51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_has_leg_53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="flight" target="has_leg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="has_leg_flight_leg_54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="has_leg" target="flight_leg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_has_instance_55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="flight_leg" target="has_instance">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="has_instance_leg_instance_56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="has_instance" target="leg_instance">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_operates_57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="leg_instance" target="operates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="operates_airplane_58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="operates" target="airplane">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_has_fare_59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="flight" target="has_fare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="has_fare_fare_60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="has_fare" target="fare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_departs_61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="flight_leg" target="departs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="departs_airport_62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="departs" target="airport">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_arrives_63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="flight_leg" target="arrives">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrives_airport_64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="arrives" target="airport">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_is_type_65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="airplane" target="is_type">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="is_type_airplane_type_66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="is_type" target="airplane_type">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_can_land_67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="airport" target="can_land">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="can_land_airplane_type_68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="can_land" target="airplane_type">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_has_seat_69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="airplane" target="has_seat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4580" y="1100" />
+              <mxPoint x="4580" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has_seat_seat_70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="has_seat" target="seat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_reserves_71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="leg_instance" target="reserves">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3440" y="1250" />
+              <mxPoint x="3440" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="customer_reserves_72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="customer" target="reserves">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seat_reserves_73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#315E7B;strokeWidth=3;" edge="1" parent="1" source="seat" target="reserves">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flight" value="FLIGHT" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="570.0" y="604.0" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_flight_no_1" value="&lt;u&gt;Flight_no&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="150.0" y="427.0" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_airline_3" value="Airline" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="155.0" y="607.0" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_weekdays_5" value="Weekdays" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F3EEFF;strokeColor=#6952A3;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;double=1;" vertex="1" parent="1">
+          <mxGeometry x="165.0" y="795.0" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg" value="FLIGHT_LEG" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1730.0" y="604.0" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_leg_no_7" value="&lt;u&gt;Leg_no&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1485.0" y="257.0" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_scheduled_departure_time_9" value="Scheduled&lt;br&gt;departure time" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1750.0" y="207.0" width="300" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_leg_scheduled_arrival_time_11" value="Scheduled&lt;br&gt;arrival time" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2065.0" y="277.0" width="290" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance" value="LEG_INSTANCE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;double=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2995.0" y="600.0" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_flight_date_13" value="&lt;span style=&quot;border-bottom:2px dashed #172B4D&quot;&gt;Flight_date&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2695.0" y="237.0" width="250" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_actual_departure_time_15" value="Actual&lt;br&gt;departure time" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3010.0" y="187.0" width="300" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_actual_arrival_time_17" value="Actual&lt;br&gt;arrival time" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3355.0" y="257.0" width="290" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_instance_available_seats_19" value="Available_seats" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3015.0" y="957.0" width="290" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane" value="AIRPLANE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4230.0" y="604.0" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_airplane_id_21" value="&lt;u&gt;Airplane_id&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4620.0" y="457.0" width="260" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_total_seats_23" value="Total_seats" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4645.0" y="677.0" width="250" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fare" value="FARE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;double=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="565.0" y="1470.0" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fare_fare_code_25" value="&lt;span style=&quot;border-bottom:2px dashed #172B4D&quot;&gt;Fare_code&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="130.0" y="1297.0" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fare_amount_27" value="Amount" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="145.0" y="1487.0" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fare_restrictions_29" value="Restrictions" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="140.0" y="1687.0" width="260" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airport" value="AIRPORT" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1850.0" y="1854.0" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_airport_code_31" value="&lt;u&gt;Airport_code&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1335.0" y="2007.0" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_name_33" value="Name" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1625.0" y="2197.0" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_city_35" value="City" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1960.0" y="2247.0" width="180" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_state_37" value="State" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2265.0" y="2157.0" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type" value="AIRPLANE_TYPE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4210.0" y="1554.0" width="340" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type_type_name_39" value="&lt;u&gt;Type_name&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4645.0" y="1377.0" width="250" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type_company_41" value="Company" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4685.0" y="1557.0" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="airplane_type_max_seats_43" value="Max_seats" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4650.0" y="1747.0" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="customer" value="CUSTOMER" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2300.0" y="2814.0" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_customer_id_45" value="&lt;u&gt;Customer_id&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1835.0" y="2697.0" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_name_47" value="Name" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1860.0" y="2897.0" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_phone_49" value="Phone" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1945.0" y="3097.0" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="seat" value="SEAT" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF2FF;strokeColor=#245A9C;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;rounded=0;double=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4240.0" y="2810.0" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="seat_seat_no_51" value="&lt;span style=&quot;border-bottom:2px dashed #172B4D&quot;&gt;Seat_no&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#58718A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=ellipse;perimeter=ellipsePerimeter;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4670.0" y="2817.0" width="220" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="has_leg" value="HAS_LEG" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1160.0" y="570.0" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="has_instance" value="HAS&lt;br&gt;INSTANCE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;double=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2375.0" y="565.0" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="operates" value="OPERATES" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3650.0" y="570.0" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="has_fare" value="HAS_FARE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;double=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="585.0" y="995.0" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="departs" value="DEPARTS&lt;br&gt;FROM" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1440.0" y="1180.0" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="arrives" value="ARRIVES&lt;br&gt;AT" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2070.0" y="1180.0" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="is_type" value="IS_OF_TYPE" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4250.0" y="1030.0" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="can_land" value="CAN_LAND" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3170.0" y="1760.0" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="has_seat" value="HAS_SEAT" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;double=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4245.0" y="2175.0" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="reserves" value="RESERVES" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#E7F8F0;strokeColor=#1F7A5A;strokeWidth=3;fontColor=#172B4D;fontFamily=Arial;shape=rhombus;perimeter=rhombusPerimeter;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3290.0" y="2740.0" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_1" value="(1,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="942" y="572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_2" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1552" y="572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_3" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2162" y="572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_4" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2792" y="572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_5" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3432" y="572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_6" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="4052" y="572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_7" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="842" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_8" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="1302" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_9" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="942" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_10" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1702" y="1582" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_11" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2042" y="942" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_12" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2112" y="1592" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_13" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="4412" y="852" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_14" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="4412" y="1352" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_15" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2592" y="1832" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_16" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3812" y="1722" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_17" value="(1,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="4542" y="1882" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_18" value="(1,1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="4412" y="2572" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_19" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3402" y="1302" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_20" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2882" y="2742" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_label_21" value="(0,N)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E2EC;fontColor=#17365D;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3862" y="2742" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="text_1" value="Ternary rule: CUSTOMER reserves a SEAT for one LEG_INSTANCE.&lt;br&gt;The pair (LEG_INSTANCE, SEAT) must be unique." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEA;strokeColor=#D9B300;strokeWidth=2;fontSize=15;fontColor=#243B53;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="3245" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="text_2" value="Validation: the reserved SEAT must belong to the AIRPLANE&lt;br&gt;assigned to that LEG_INSTANCE." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEA;strokeColor=#D9B300;strokeWidth=2;fontSize=15;fontColor=#243B53;" vertex="1" parent="1">
+          <mxGeometry x="4060" y="3245" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="text_3" value="Introduced safe identifiers: Flight_no and Customer_id." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEA;strokeColor=#D9B300;strokeWidth=2;fontSize=15;fontColor=#243B53;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3245" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Legend: underlined = key | dashed underline = partial key | dashed oval = derived | double outline = weak / multivalued | gold rectangle = associative | (min,max) = participation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FA;strokeColor=#A8BED3;fontColor=#334E68;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3510" width="4840" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
