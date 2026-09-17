@@ -1,5 +1,11 @@
 # Hospital Management System ERD
 
+## ERD preview
+
+![Hospital Chen ERD](03-ERD/Hospital_Chen_ERD.png)
+
+[Editable Draw.io diagram](03-ERD/Hospital_Chen_ERD.drawio) · [SVG diagram](03-ERD/Hospital_Chen_ERD.svg)
+
 ## Project overview
 
 This project analyzes and designs a normalized Hospital Management System covering patients, doctors, departments, appointments, healthcare services, medical records, billing, and payments.
