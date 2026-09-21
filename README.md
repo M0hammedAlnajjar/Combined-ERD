@@ -1,40 +1,61 @@
-# Combined ERD Tasks - Complete Solution
+# Combined-ERD
 
-This submission solves all three cases in the supplied brief:
+This repository is organized by database design stage so each case study can be followed from conceptual design to implementation.
 
-1. Level 1 - College Management System
-2. Level 2 - Airline Information System
-3. Level 3 - Hospital Management System
+## Repository Structure
 
-## Included deliverables
+```text
+Combined-ERD/
+│
+├── DDL Implementation/
+│   ├── Case Study/
+│   ├── Hospital-System/
+│   ├── Level-1-College/
+│   └── Level-2-Airline/
+│
+├── ERD/
+│   ├── Case Study/
+│   ├── Hospital-System/
+│   ├── Level-1-College/
+│   └── Level-2-Airline/
+│
+├── Relational Mapping to Normalization/
+│   ├── Case Study/
+│   ├── Hospital-System/
+│   ├── Level-1-College/
+│   └── Level-2-Airline/
+│
+├── ER-to-Relational Mapping/
+│   ├── Case Study/
+│   ├── Hospital-System/
+│   ├── Level-1-College/
+│   └── Level-2-Airline/
+│
+└── README.md
+```
 
-- Written entity, attribute, relationship, key, participation, and cardinality analysis.
-- Editable `.drawio` diagrams for use in [app.diagrams.net](https://app.diagrams.net/).
-- High-resolution PNG exports of every final ERD.
-- The exact mandatory folder structure for the Hospital task.
-- Explicit modeling assumptions wherever the source brief is ambiguous.
+## Sections
 
-## Chen notation used
+### ERD
+Conceptual Entity Relationship Diagrams, including Chen-notation diagrams and diagram previews.
 
-- Rectangle: strong entity.
-- Double rectangle: weak entity.
-- Gold rounded rectangle: associative entity.
-- Diamond: relationship.
-- Double diamond: identifying relationship.
-- Oval: attribute.
-- Double oval: multi-valued attribute.
-- Underlined attribute: primary key.
-- Dashed-underlined attribute: partial key.
-- Dashed oval: derived attribute.
-- `(min,max)` labels: participation and cardinality; `(1,1)` indicates mandatory total participation.
+The combined editable ERD file is stored at:
+`ERD/Combined_ERD_Tasks.drawio`
 
-## Open an editable diagram
+### ER-to-Relational Mapping
+Relational schemas derived from the ER diagrams, including primary keys, foreign keys, junction tables, and relationship mappings.
 
-1. Open `https://app.diagrams.net/`.
-2. Select **Device**.
-3. Choose **Open Existing Diagram**.
-4. Select `Combined_ERD_Tasks.drawio` for all three pages, or any individual `.drawio` file from an `03-ERD` folder.
+### Relational Mapping to Normalization
+Reserved for normalization work such as 1NF, 2NF, and 3NF for each case.
 
-## Important modeling principle
+### DDL Implementation
+Reserved for SQL DDL implementation such as `CREATE TABLE`, primary-key constraints, foreign-key constraints, and related schema definitions.
 
-The diagrams show conceptual Chen notation. The logical-design files show how those concepts become relational tables, foreign keys, and junction tables.
+## Cases
+
+- Case Study
+- Hospital-System
+- Level-1-College
+- Level-2-Airline
+
+Editable diagrams can be opened with [diagrams.net](https://app.diagrams.net/).
