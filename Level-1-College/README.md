@@ -1,8 +1,8 @@
 # College — ER-to-Relational Mapping
 
-![College relational mapping](College_Relational_Mapping.png)
+![College relational mapping](Level1_College_Mapping_DiagramsNet_Styled.jpg)
 
-[Open full-size image](College_Relational_Mapping.png) · [Download editable diagrams.net file](College_Relational_Mapping.drawio)
+[Open full-size image](Level1_College_Mapping_DiagramsNet_Styled.jpg) · [Download editable diagrams.net file](Level1_College_Mapping_DiagramsNet_Styled.drawio)
 
 Source: Task 2 (Design ERDs), EASY college case study supplied in the request.
 
