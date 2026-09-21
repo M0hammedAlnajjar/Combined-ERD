@@ -1,8 +1,8 @@
 # Airline — ER-to-Relational Mapping
 
-![Airline relational mapping](Airline_Relational_Mapping.png)
+![Airline relational mapping](Level2_Airline_Mapping_DiagramsNet_Styled.drawio.png)
 
-[Full-size image](Airline_Relational_Mapping.png) · [Editable diagrams.net file](Airline_Relational_Mapping.drawio)
+[Full-size image](Level2_Airline_Mapping_DiagramsNet_Styled.drawio.png) · [Editable diagrams.net file](Airline_Relational_Mapping.drawio)
 
 Source: Task 2 (Design ERDs), INTERMEDIATE airline case study supplied in the request. This mapping follows that text, with the modeling assumptions below.
 
