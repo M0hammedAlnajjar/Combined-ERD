@@ -7,7 +7,7 @@ This repository is organized by database design stage so each case study can be 
 ```text
 Combined-ERD/
 │
-├── DDL Implementation/
+├── DDL Implementation and Normalization/
 │   ├── Case Study/
 │   ├── Hospital-System/
 │   ├── Level-1-College/
@@ -18,13 +18,7 @@ Combined-ERD/
 │   ├── Hospital-System/
 │   ├── Level-1-College/
 │   └── Level-2-Airline/
-│
-├── Relational Mapping to Normalization/
-│   ├── Case Study/
-│   ├── Hospital-System/
-│   ├── Level-1-College/
-│   └── Level-2-Airline/
-│
+|
 ├── ER-to-Relational Mapping/
 │   ├── Case Study/
 │   ├── Hospital-System/
